@@ -7,7 +7,7 @@ from .feature_selection import (
     bootstrap_lightgbm_forward_selection,
     performance_forward_selection_boxplot,
     variable_frequency_forward_selection,
-    top_k_forward_selection_variables,
+    top_k_forward_selection_variables_by_frequency_usage,
 )
 
 from .hyperparameter_analysis import (
