@@ -420,7 +420,7 @@ def top_k_forward_selection_variables(df, n_bootstraps, k=10):
 
 
 # Returns the k variables that produced the best performancefor a given metric.
-def top_k_variables_by__forward_selection_boxplot(result_bootstrap, k, metric):
+def top_k_variables_by_forward_selection_boxplot(result_bootstrap, k, metric):
     """
     Returns the k variables that produced the best performance
     for a given metric.
