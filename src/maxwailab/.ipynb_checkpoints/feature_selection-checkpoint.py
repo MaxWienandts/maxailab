@@ -465,14 +465,3 @@ def top_k_variables_by_forward_selection_boxplot(result_bootstrap, k, metric):
     variables = df_vars.loc[:row, best_col].tolist()
 
     return variables, performance
-
-# Example usage
-vars_best, perf = top_k_variables_by__forward_selection_boxplot(
-    result_bootstrap,
-    k=2,
-    metric="auc_roc"
-)
-
-print(vars_best)
-print()
-print(perf)
